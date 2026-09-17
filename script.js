@@ -7,8 +7,7 @@ if (menu && nav) {
   });
 }
 
-const images = Array.from(document.querySelectorAll('.photo-gallery img'));
-
+const images = Array.from(document.querySelectorAll('.photo-gallery img, .brand-logos img'));
 images.forEach((img, index) => {
   img.style.cursor = 'pointer';
 
